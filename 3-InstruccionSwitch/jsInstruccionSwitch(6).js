@@ -9,7 +9,7 @@ var laHora = document.getElementById("hora").value;
 	case "9":
 	case "10":
 	case "11":
-		alert("Es de mañana");
+		alert("Es de mañana.");
 	break;
 
 	case "12":
@@ -20,7 +20,7 @@ var laHora = document.getElementById("hora").value;
 	case "17":
 	case "18":
 	case "19":
-		alert("Es de tarde");
+		alert("Es de tarde.");
 	break;
 
 	case "20":
@@ -35,11 +35,11 @@ var laHora = document.getElementById("hora").value;
 	case "4":
 	case "5":
 	case "6":
-		alert("Es de noche");
+		alert("Es de noche.");
 	break;
 
 	default:
-		alert("La hora no existe");
+		alert("La hora no existe.");
 	break;
 
 }
