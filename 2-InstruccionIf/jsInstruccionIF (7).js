@@ -4,7 +4,7 @@ function Mostrar()
     var edad;
     var estadocivil;
     edad = document.getElementById("edad").value;
-    edad = parseInt(edad);
+    edad = parseInt(edad); // NO ES NECESARIO
     estadocivil = document.getElementById("estadoCivil").value;
 
     if(estadocivil == "Casado" && edad<18)	
