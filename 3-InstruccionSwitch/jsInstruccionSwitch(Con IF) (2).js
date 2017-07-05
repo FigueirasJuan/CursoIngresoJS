@@ -7,11 +7,11 @@ if(mesDelAño == "Julio" || mesDelAño == "Agosto")
 {
 	alert("Abrigate que hace frío.");
 }
-else if(mes == "Septiembre" || mes == "Octubre" || mes == "Noviembre" || mes == "Diciembre")
+else if(mesDelAño == "Septiembre" || mesDelAño == "Octubre" || meDelAños == "Noviembre" || mesDelAño == "Diciembre")
 {
     alert("Ya pasamos el frío, ahora calor!!!.");
 }    
-else if(mes == "Enero" || mes == "Febrero" || mes == "Marzo" || mes == "Abril" || mes == "Mayo" || mes == "Junio" )
+else if(mesDelAño == "Enero" || mesDelAño == "Febrero" || mesDelAño == "Marzo" || mesDelAño == "Abril" || mesDelAño == "Mayo" || mesDelAño == "Junio" )
 {
   alert("Falta para el invierno.");
 }	
