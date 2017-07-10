@@ -14,7 +14,7 @@ while(respuesta == true)
 	respuesta = confirm("¿Desea seguir ingresando números?");
 	contador = contador + 1;
 
-	if(contador == 1)
+	if(contador == 1) //bandera flag
 {
 	max = numero;
 	min = numero;
