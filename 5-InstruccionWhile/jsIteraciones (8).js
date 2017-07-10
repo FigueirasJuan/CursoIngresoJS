@@ -3,7 +3,7 @@ function Mostrar()
 
 	var positivo=0;
 	var negativo=1;
-	var respuesta= true;
+	var respuesta = true;
 
 while(respuesta == true)
 {
@@ -12,16 +12,14 @@ while(respuesta == true)
 
 	if(numero>=0)
 {
-	positivo = positivo + parseInt(numero)
+	positivo = positivo + numero
 }
 	else
 {
-	negativo = negativo * parseInt(numero)
+	negativo = negativo * numero
 }
 	respuesta = confirm("¿Desea seguir ingresando números?")
 }
-
-
 
 
 document.getElementById("suma").value=positivo;
