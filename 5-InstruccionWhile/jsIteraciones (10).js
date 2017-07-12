@@ -59,6 +59,8 @@ while(respuesta == true)
 		cantpar++;
 	}
 
+	difposneg = sumapos + sumaneg;
+	
 	if(difposneg < 0)
 	{
 		difposneg = difposneg * -1;
@@ -75,7 +77,7 @@ while(respuesta == true)
 	}
 
 	respuesta = confirm("¿Desea seguir ingresando números?");
-	difposneg = sumapos + sumaneg;
+
 }
 
 
