@@ -15,6 +15,7 @@ function CalcularPrecio ()
     var precio = 35;
     precio = parseInt(precio);
     var res;
+    var iibb;
 
     marca = document.getElementById("Marca").value;
     cant = document.getElementById("Cantidad").value;
@@ -24,7 +25,6 @@ if(cant == 6)
     res = (precio * cant) * 0.50;
     res = parseInt(res)
 }
-
 else if(cant == 5 && marca == "ArgentinaLuz")
 {
     res = (precio * cant) * 0.60;
@@ -44,6 +44,27 @@ else if(cant == 4 && marca == "FelipeLamparas")
 else if(cant == 4)
 {
     res = (precio * cant) * 0.80
+}
+else if(cant == 3 && marca == "ArgentinaLuz")
+{
+    res = (precio * cant) * 0.85
+}
+else if(cant == 3 && marca == "FelipeLamparas")
+{
+    res = (precio * cant) * 0.90
+}
+else if(cant == 3)
+{
+    res = (precio * cant) * 0.95
+}
+else
+{
+    res = (precio * cant)
+}
+if(res>120)
+{
+    iibb = res * 0.10
+    alert("Usted pago $ " + iibb + " de IIBB")
 }
 
 document.getElementById("precioDescuento").value = res;
