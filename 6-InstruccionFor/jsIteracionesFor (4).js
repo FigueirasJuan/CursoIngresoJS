@@ -12,4 +12,4 @@ for(;flag == false;)
     break;
 }
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN.
