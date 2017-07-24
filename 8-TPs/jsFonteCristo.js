@@ -9,5 +9,23 @@ e.	Se pedirán un número positivo y se mostrará la cantidad de números Primos
 */
 function ComenzarIngreso () 
 {
- 	
+ 	var num = document.getElementById("numero").value;
+     var pares = 0;
+     num = parseInt(num);
+     if(num<0)
+     {
+         alert("Ingrese un número positivo");
+     }
+
+     else
+     {
+         for(i=1; i<num; i++)
+         {
+             if(num%2==0)
+             {
+                 pares++;
+                 alert(pares);
+             }
+         }
+     }
 }
